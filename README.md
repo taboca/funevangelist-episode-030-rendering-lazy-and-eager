@@ -1,5 +1,7 @@
 # Episode 030 – The Lazy and Eager Grid Renderer 
 
+* [Check Fun Evangelist Season](https://www.mgalli.com/s/evangelistcast) to see other chapters and support the project.
+
 An educational experiment on how browsers handle **lazy vs. eager image loading**, using a simulated slow server and **Puppeteer screenshots**.
 
 Modern browsers optimize network performance by deferring image loads until the moment they enter the viewport. Developers rely on this for faster first paints and lighter page loads.
