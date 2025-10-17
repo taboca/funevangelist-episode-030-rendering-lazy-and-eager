@@ -1,0 +1,13 @@
+{
+  "name": "evangelism-lab",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "grid": "node servers/grid-server.mjs",
+    "renderer": "node servers/renderer-server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^23.7.0"
+  }
+}

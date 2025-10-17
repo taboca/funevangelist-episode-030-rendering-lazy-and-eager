@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lazy Loading Grid</title>
+  <style>
+    body { margin: 0; font-family: sans-serif; }
+    main {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+      padding: 16px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      background: #ddd;
+      border-radius: 4px;
+      display: block;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>Lazy Loading Demo — Each image uses <code>loading="lazy"</code></header>
+  <main>
+    <img src="/slow/img-01.png" loading="lazy">
+    <img src="/slow/img-02.png" loading="lazy">
+    <img src="/slow/img-03.png" loading="lazy">
+    <img src="/slow/img-04.png" loading="lazy">
+    <img src="/slow/img-05.png" loading="lazy">
+
+    <img src="/slow/img-06.png" loading="lazy">
+    <img src="/slow/img-07.png" loading="lazy">
+    <img src="/slow/img-08.png" loading="lazy">
+    <img src="/slow/img-09.png" loading="lazy">
+    <img src="/slow/img-10.png" loading="lazy">
+
+    <img src="/slow/img-11.png" loading="lazy">
+    <img src="/slow/img-12.png" loading="lazy">
+    <img src="/slow/img-13.png" loading="lazy">
+    <img src="/slow/img-14.png" loading="lazy">
+    <img src="/slow/img-15.png" loading="lazy">
+
+    <img src="/slow/img-16.png" loading="lazy">
+    <img src="/slow/img-17.png" loading="lazy">
+    <img src="/slow/img-18.png" loading="lazy">
+    <img src="/slow/img-19.png" loading="lazy">
+    <img src="/slow/img-20.png" loading="lazy">
+
+    <img src="/slow/img-21.png" loading="lazy">
+    <img src="/slow/img-22.png" loading="lazy">
+    <img src="/slow/img-23.png" loading="lazy">
+    <img src="/slow/img-24.png" loading="lazy">
+    <img src="/slow/img-25.png" loading="lazy">
+  </main>
+</body>
+</html>
